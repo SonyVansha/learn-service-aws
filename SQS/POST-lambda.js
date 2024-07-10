@@ -7,7 +7,7 @@ export const handler = async (event, context) => {
     const task = {
         "id": Date.now().toString(),
         "description": event.description,
-        "targetDate": "event.targetDate",
+        "targetDate": event.targetDate,
         "isCompleted": false
     };
 
